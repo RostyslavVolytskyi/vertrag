@@ -7,5 +7,20 @@
 }
 
 .legend {
-    margin-left: 20px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    color: $value-color;
+
+    .circle-male {
+        margin-right: 10px;
+    }
+
+    .male {
+        background-color: rgba(188, 93, 230, 1);
+    }
+
+    .female {
+        background-color: rgba(94, 119, 255, 1);
+    }
 }

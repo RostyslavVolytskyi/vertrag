@@ -1,10 +1,26 @@
 <div class="chart-card-content">
     <div class="main-chart">
-        Main chart here
+
+        <div class="chart-wrapper">
+            <canvas baseChart 
+            [options]="doughnutChartOptions"
+            [datasets]="doughnutChartData"
+            [labels]="doughnutChartLabels"
+            [chartType]="doughnutChartType">
+          </canvas>
+        </div>
+
     </div>
     <div class="bottom">
         <just-updated></just-updated>
-        <div class="legend">points</div>
+        <div class="legend">
+            <div class="circle-male">
+                <span class="circle male"></span>Male
+            </div>
+            <div>
+                <span class="circle female"></span>Female
+            </div>
+        </div>
     </div>
 </div>
 
