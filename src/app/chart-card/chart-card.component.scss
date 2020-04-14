@@ -2,8 +2,10 @@
 
 $chart-card-title: #3C4858;
 $arrow-icon-size: 8px;
+$chart-card-padding: 20px;
+
 :host {
-    padding: 20px 20px 0 20px;
+    padding: $chart-card-padding $chart-card-padding 0 $chart-card-padding;
     background: $white-color;
     border-radius: 6px;
     box-shadow: $box-shadow;
@@ -37,5 +39,9 @@ $arrow-icon-size: 8px;
         align-items: center;
         color: $blue-color;
         justify-content: space-between;
+
+        &.move-right {
+            float: right;
+        }
     }
 }

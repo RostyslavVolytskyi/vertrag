@@ -1,5 +1,5 @@
 <div class="chart-card">
-    <div class="header">
+    <div class="header" [class.move-right]="!title">
         <div *ngIf="title" class="title">{{title}}</div>
         <div class="missing-data">Missing Data <span class="arrow-icon"></span></div>
     </div>
