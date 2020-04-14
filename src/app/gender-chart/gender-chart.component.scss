@@ -1,5 +1,24 @@
 @import 'variables';
 
+.chart-central-icon {
+    position: absolute;
+    display: flex;
+
+    .male-icon, .female-icon {
+        display: block;
+        width: 20px;
+        height: 55px;
+    }
+
+    .male-icon {
+        background: no-repeat center/83% url("/assets/icons/Male.svg");
+    }
+
+    .female-icon {
+        background: no-repeat center/100% url("/assets/icons/Female.svg");
+    }
+}
+
 .bottom {
     display: flex;
     border-top: 1px solid $divider;
