@@ -27,6 +27,7 @@ export class GenderChartComponent implements OnInit {
 
   doughnutChartOptions: ChartOptions = {
     responsive: true,
+    cutoutPercentage: 65,
     legend: {
       display: false,
     }
