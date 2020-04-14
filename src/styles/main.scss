@@ -1,9 +1,11 @@
 @import 'variables';
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 
 body {
     background: $background-color;
     color: $font-color;
+    font: $font;
+    font-weight: 300;
 }
 
 .icon {
