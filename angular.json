@@ -23,12 +23,17 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/styles"
+              ]
+            },
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles/main.scss"
             ],
             "scripts": []
           },
@@ -92,7 +97,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles/main.scss"
             ],
             "scripts": []
           }
@@ -123,6 +128,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "vertrags"
+    }
+  },
+  "defaultProject": "vertrags",
+  "cli": {
+    "analytics": false
+  }
 }

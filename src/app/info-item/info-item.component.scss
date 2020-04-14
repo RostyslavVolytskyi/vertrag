@@ -1,0 +1,59 @@
+
+@import 'variables';
+@import 'mixins';
+
+.info-item {
+    position: relative;
+    background-color: $white-color;
+    width: 300px;
+    box-shadow: $info-item-box-shadow;
+    border-radius: 4px;
+    margin: 10px;
+    padding: $item-padding-vert $item-padding-horiz;
+
+    .info-top {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-bottom: 2 * $item-padding-vert;
+
+        .title {
+            color: $title-color;
+        }
+
+        .value {
+            color: $value-color;
+            margin-top: 3px;
+            font-size: 22px;
+        }
+    }
+
+    .info-bottom {
+        border-top: 1px solid $divider;
+        padding-top: $item-padding-vert;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .icon {
+        position: absolute;
+        top: -15px;
+
+        &.employees {
+            @include iconBackround("/assets/icons/Employees.svg", #6CEFFF, #5E77FF);
+        }
+
+        &.contracts {
+            @include iconBackround("/assets/icons/Contracts.svg", #A094FF, #BC5DE6);
+        }
+
+        &.documentations {
+            @include iconBackround("/assets/icons/Documentations.svg", #09D0BD, #5E77FF);
+        }
+
+        &.consultations {
+            @include iconBackround("/assets/icons/Consultations.svg", #FFA300, #F44336);
+        }
+    }
+}

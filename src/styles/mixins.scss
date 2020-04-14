@@ -1,0 +1,4 @@
+@mixin iconBackround($url, $start-color, $finish-color) {
+    background: no-repeat center/40% url($url),
+                linear-gradient(222.47deg, $start-color 0%, $finish-color 100%);
+}

@@ -1,0 +1,32 @@
+@import 'variables';
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+body {
+    background: $background-color;
+    color: $font-color;
+}
+
+.icon {
+    display: block;
+    width: $icon-size;
+    height: $icon-size;
+    box-shadow: $box-shadow;
+    border-radius: 4px;
+}
+
+button {
+    background-color: $blue-color;
+    border-radius: 15px;
+    padding: 8px 20px;
+    color: $white-color;
+    font-size: 10px;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    outline: none;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: $default-button-color-hover;
+    }
+}

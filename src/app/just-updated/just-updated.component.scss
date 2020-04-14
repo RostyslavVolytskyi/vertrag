@@ -1,0 +1,16 @@
+$upload-icon-size: 15px;
+
+.just-updated {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+
+    .upload-icon {
+        display: block;
+        width: $upload-icon-size;
+        height: $upload-icon-size;
+        background: no-repeat center/100% url("/assets/icons/ic_update@1x.svg");
+        margin-right: 8px;
+    }
+}

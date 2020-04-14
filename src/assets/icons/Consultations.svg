@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Places/ic_business_center</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M33.3333333,3.33333333 L6.66666667,3.33333333 C4.83333333,3.33333333 3.33333333,4.83333333 3.33333333,6.66666667 L3.33333333,36.6666667 L10,30 L33.3333333,30 C35.1666667,30 36.6666667,28.5 36.6666667,26.6666667 L36.6666667,6.66666667 C36.6666667,4.83333333 35.1666667,3.33333333 33.3333333,3.33333333 L33.3333333,3.33333333 Z" id="path-1"></path>
+    </defs>
+    <g id="DASHBOARD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="00_Dashboard_DE-Copy" transform="translate(-1547.000000, -1028.000000)">
+            <g id="Statistics_part_1" transform="translate(283.000000, 1000.000000)">
+                <g id="REVENUE-4" transform="translate(1221.000000, 0.000000)">
+                    <g id="ICON" transform="translate(15.000000, 0.000000)">
+                        <g id="Places/ic_business_center" transform="translate(25.000000, 25.000000)">
+                            <polygon id="Bounds" points="0 0 40 0 40 40 0 40"></polygon>
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#000000" xlink:href="#path-1"></use>
+                            <g id="Color-/-Color-01" mask="url(#mask-2)" fill="#FFFFFF">
+                                <rect id="color" x="0" y="0" width="40" height="40"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

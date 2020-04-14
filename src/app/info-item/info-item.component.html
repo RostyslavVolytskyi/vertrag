@@ -1,0 +1,11 @@
+<div class="info-item" *ngIf="infoItem">
+    <span class="icon {{infoItem.iconClass}}"></span>
+    <div class="info-top">
+        <div class="title">{{infoItem.title}}</div>
+        <div class="value">{{infoItem.value}}</div>
+    </div>
+    <div class="info-bottom">
+        <just-updated></just-updated>
+        <button>More info</button>
+    </div>
+</div>
