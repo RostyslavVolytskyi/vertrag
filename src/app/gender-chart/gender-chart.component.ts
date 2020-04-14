@@ -31,7 +31,6 @@ export class GenderChartComponent implements OnInit {
     legend: {
       display: false,
     }
-
   };
 
   constructor() { }

@@ -9,6 +9,7 @@ import { JustUpdatedComponent } from './just-updated/just-updated.component';
 import { ChartsComponent } from './charts/charts.component';
 import { ChartCardComponent } from './chart-card/chart-card.component';
 import { GenderChartComponent } from './gender-chart/gender-chart.component';
+import { AgeChartComponent } from './age-chart/age-chart.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { GenderChartComponent } from './gender-chart/gender-chart.component';
     JustUpdatedComponent,
     ChartsComponent,
     ChartCardComponent,
-    GenderChartComponent
+    GenderChartComponent,
+    AgeChartComponent
   ],
   imports: [
     BrowserModule,
