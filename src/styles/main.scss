@@ -30,3 +30,23 @@ button {
         background-color: $default-button-color-hover;
     }
 }
+
+// charts
+.chart-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 30px; // header height
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    .main-chart {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 20px 0;
+    }
+}

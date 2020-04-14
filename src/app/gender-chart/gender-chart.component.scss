@@ -1,0 +1,11 @@
+@import 'variables';
+
+.bottom {
+    display: flex;
+    border-top: 1px solid $divider;
+    padding: 8px 0;
+}
+
+.legend {
+    margin-left: 20px;
+}

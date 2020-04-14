@@ -7,6 +7,7 @@ import { InfoItemComponent } from './info-item/info-item.component';
 import { JustUpdatedComponent } from './just-updated/just-updated.component';
 import { ChartsComponent } from './charts/charts.component';
 import { ChartCardComponent } from './chart-card/chart-card.component';
+import { GenderChartComponent } from './gender-chart/gender-chart.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ChartCardComponent } from './chart-card/chart-card.component';
     InfoItemComponent,
     JustUpdatedComponent,
     ChartsComponent,
-    ChartCardComponent
+    ChartCardComponent,
+    GenderChartComponent
   ],
   imports: [
     BrowserModule,
