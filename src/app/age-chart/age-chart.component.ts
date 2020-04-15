@@ -27,6 +27,11 @@ export class AgeChartComponent implements OnInit {
 ]
 
   barChartOptions: ChartOptions = {
+    plugins: {
+      datalabels: {
+          display: false,
+      }
+    },
     responsive: true,
     legend: {
       display: false,
@@ -36,8 +41,8 @@ export class AgeChartComponent implements OnInit {
         ticks: {
           min: 0,
           callback: function(value, index, values) {
-            return !value ? value : value+"%";
-        }
+            return !value ? value : `${value} %`;
+          }
         }
       }]
     }

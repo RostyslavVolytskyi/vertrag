@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ChartType, ChartOptions } from 'chart.js';
+import { Chart, ChartType, ChartOptions } from 'chart.js';
 import { Label } from 'ng2-charts';
+import ChartDataLabels from 'chartjs-plugin-datalabels';
 
 @Component({
   selector: 'gender-chart',
@@ -26,8 +27,19 @@ export class GenderChartComponent implements OnInit {
         }]
 
   doughnutChartOptions: ChartOptions = {
+    plugins: {
+      datalabels: {
+          color: 'white',
+          font: {
+            size: 11,
+          },
+          formatter: function(value, context) {
+            return `${value} %`;
+        }
+      }
+    },
     responsive: true,
-    cutoutPercentage: 65,
+    cutoutPercentage: 63,
     legend: {
       display: false,
     }
@@ -36,6 +48,7 @@ export class GenderChartComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    Chart.pluginService.register(ChartDataLabels);
   }
 
 }
