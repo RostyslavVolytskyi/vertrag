@@ -1,7 +1,6 @@
 @import 'variables';
 
 $chart-card-title: #3C4858;
-$arrow-icon-size: 8px;
 $chart-card-padding: 20px;
 
 :host {
@@ -23,8 +22,8 @@ $chart-card-padding: 20px;
 
     .arrow-icon {
         display: block;
-        width: $arrow-icon-size;
-        height: $arrow-icon-size;
+        width: 5px;
+        height: 8px;
         background: no-repeat center/100% url("/assets/icons/ic_arrow.svg");
         margin-left: 10px;
     }
