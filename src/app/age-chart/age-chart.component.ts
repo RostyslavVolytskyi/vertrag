@@ -15,13 +15,13 @@ export class AgeChartComponent implements OnInit {
     {
         label: "female",
         backgroundColor: 'rgba(94, 119, 255, 1)',
-        hoverBackgroundColor: 'rgba(94, 119, 255, 1)',
+        hoverBackgroundColor: 'rgba(56, 86, 255, 1)',
         data: [10, 25, 45, 20]
     },
     {
         label: "male",
         backgroundColor: 'rgba(188, 93, 230, 1)',
-        hoverBackgroundColor: 'rgba(188, 93, 230, 1)',
+        hoverBackgroundColor: 'rgba(189, 35, 255, 1)',
         data: [5, 10, 26, 15]
     },
 ]
