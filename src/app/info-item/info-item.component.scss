@@ -2,10 +2,16 @@
 @import 'variables';
 @import 'mixins';
 
+:host(.last) {
+    .info-item {
+        margin-right: 0;
+    }
+}
+
 .info-item {
     position: relative;
     background-color: $white-color;
-    width: 300px;
+    width: 290px;
     box-shadow: $info-item-box-shadow;
     border-radius: 4px;
     margin: 20px 20px 20px 0;

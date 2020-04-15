@@ -1,6 +1,6 @@
 <div class="content">
   <div class="info-items">
-    <info-item *ngFor="let infoItem of infoItems" [infoItem]="infoItem"></info-item>
+    <info-item *ngFor="let infoItem of infoItems; let last = last" [class.last]="last" [infoItem]="infoItem"></info-item>
   </div>
   <charts></charts>
 </div>
