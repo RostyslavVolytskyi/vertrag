@@ -2,7 +2,11 @@
     display: grid;
     gap: 20px;
 
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-template-areas:
+    'a  b  c'
+    'l  e  f';
+    
+    grid-template-columns: repeat(3, 1fr); //repeat(auto-fit, minmax(340px, 1fr));
     grid-auto-rows: 285px;
 }
 
