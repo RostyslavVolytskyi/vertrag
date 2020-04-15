@@ -24,7 +24,7 @@ export class AgeChartComponent implements OnInit {
         hoverBackgroundColor: 'rgba(189, 35, 255, 1)',
         data: [5, 10, 26, 15]
     },
-]
+  ]
 
   barChartOptions: ChartOptions = {
     plugins: {
