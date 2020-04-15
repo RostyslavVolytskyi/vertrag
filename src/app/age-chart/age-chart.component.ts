@@ -35,6 +35,9 @@ export class AgeChartComponent implements OnInit {
       yAxes: [{
         ticks: {
           min: 0,
+          callback: function(value, index, values) {
+            return !value ? value : value+"%";
+        }
         }
       }]
     }
